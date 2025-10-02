@@ -40,19 +40,26 @@ int main() {
     Color Red("Red", 255, 0, 0);
     Red.print();
 
-    /*Color ;
-    GreenCl.setcolorName("Green");
-    GreenCl.setRedv(0);
-    GreenCl.setGreenv(255);
-    GreenCl.setBluev(0);
-    GreenCl.print();
+    Color Green("Green", 0, 255, 0);
+    Green.print();
 
-    Color ;
-    BlueCl.setcolorName("Blue");
-    BlueCl.setRedv(0);
-    BlueCl.setGreenv(0);
-    BlueCl.setBluev(255);
-    BlueCl.print();
+    Color Blue("Blue", 0, 0, 255);
+    Blue.print();
+
+    Color Magenta("Magenta", 255, 0, 255);
+    Magenta.print();
+
+    Color Yellow("Yellow", 255, 255, 0);
+    Yellow.print();
+
+    Color Cyan("Cyan", 0, 255, 255);
+    Cyan.print();
+
+    Color White("White", 255, 255, 255);
+    White.print();
+
+
+    /*
 
     Color ;
     MagentaCl.setcolorName("Magenta");
