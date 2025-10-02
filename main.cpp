@@ -13,6 +13,9 @@ private:
     int bluev;
     string name;
 public:
+
+    Color(string N, int r, int g, int b) {name = N; redv = r; greenv = g; bluev = b;}
+
     string getcolorName() {return name;}
     int getRedv() {return redv;}
     int getGreenv() {return greenv;}
@@ -34,49 +37,49 @@ public:
 
 int main() {
 
-    Color RedCl;
+    Color ;
     RedCl.setcolorName("Red");
     RedCl.setRedv(255);
     RedCl.setGreenv(0);
     RedCl.setBluev(0);
     RedCl.print();
 
-    Color GreenCl;
+    Color ;
     GreenCl.setcolorName("Green");
     GreenCl.setRedv(0);
     GreenCl.setGreenv(255);
     GreenCl.setBluev(0);
     GreenCl.print();
 
-    Color BlueCl;
+    Color ;
     BlueCl.setcolorName("Blue");
     BlueCl.setRedv(0);
     BlueCl.setGreenv(0);
     BlueCl.setBluev(255);
     BlueCl.print();
 
-    Color MagentaCl;
+    Color ;
     MagentaCl.setcolorName("Magenta");
     MagentaCl.setRedv(255);
     MagentaCl.setGreenv(0);
     MagentaCl.setBluev(255);
     MagentaCl.print();
 
-    Color YellowCl;
+    Color ;
     YellowCl.setcolorName("Yellow");
     YellowCl.setRedv(255);
     YellowCl.setGreenv(255);
     YellowCl.setBluev(0);
     YellowCl.print();
 
-    Color CyanCl;
+    Color ;
     CyanCl.setcolorName("Cyan");
     CyanCl.setRedv(0);
     CyanCl.setGreenv(255);
     CyanCl.setBluev(255);
     CyanCl.print();
 
-    Color WhiteCl;
+    Color ;
     WhiteCl.setcolorName("White");
     WhiteCl.setRedv(255);
     WhiteCl.setGreenv(255);
