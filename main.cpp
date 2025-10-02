@@ -14,6 +14,8 @@ private:
     string name;
 public:
 
+    Color() {name = "none"; redv = 0; greenv = 0; bluev = 0;}
+    Color(string N) {name = N; redv = 0; greenv = 0; bluev = 0;}
     Color(string N, int r, int g, int b) {name = N; redv = r; greenv = g; bluev = b;}
 
     string getcolorName() {return name;}
