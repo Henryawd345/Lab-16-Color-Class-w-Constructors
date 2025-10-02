@@ -37,14 +37,10 @@ public:
 
 int main() {
 
-    Color ;
-    RedCl.setcolorName("Red");
-    RedCl.setRedv(255);
-    RedCl.setGreenv(0);
-    RedCl.setBluev(0);
-    RedCl.print();
+    Color Red("Red", 255, 0, 0);
+    Red.print();
 
-    Color ;
+    /*Color ;
     GreenCl.setcolorName("Green");
     GreenCl.setRedv(0);
     GreenCl.setGreenv(255);
@@ -84,7 +80,7 @@ int main() {
     WhiteCl.setRedv(255);
     WhiteCl.setGreenv(255);
     WhiteCl.setBluev(255);
-    WhiteCl.print();
+    WhiteCl.print();*/
 
     return 0;
 }
