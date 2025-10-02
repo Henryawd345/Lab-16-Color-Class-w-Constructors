@@ -39,6 +39,13 @@ public:
 
 int main() {
 
+    Color defaultCo; //Default constructor
+    defaultCo.print();
+
+    Color Black("Black"); //Partial constructor
+    Black.print();
+
+    //Parameter constructor
     Color Red("Red", 255, 0, 0);
     Red.print();
 
@@ -62,7 +69,6 @@ int main() {
 
 
     /*
-
     Color ;
     MagentaCl.setcolorName("Magenta");
     MagentaCl.setRedv(255);
